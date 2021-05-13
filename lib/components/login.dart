@@ -100,9 +100,7 @@ class LoginComponent extends StatelessWidget {
               width: double.maxFinite,
               padding: EdgeInsets.symmetric(vertical: 16, horizontal: 24),
               child: ElevatedButton(
-                onPressed: () {
-                  print('oi');
-                },
+                onPressed: () {},
                 style: ButtonStyle(
                   shape: MaterialStateProperty.resolveWith(
                     (states) => RoundedRectangleBorder(
